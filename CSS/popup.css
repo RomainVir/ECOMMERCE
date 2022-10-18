@@ -1,0 +1,95 @@
+body {
+font-family: 'Manrope', sans-serif;
+
+}
+
+.popup {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: black;
+    padding: 60px;
+    font-family: 'Manrope', sans-serif;
+}
+
+.popup-contenu {
+    background-color: white;
+    margin: 5% auto 15% auto;
+    border-radius: 8px;
+    border: 1px solid grey;
+    width: 80%;
+}
+.fermer{
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+    
+} 
+.fermer:hover {
+    color: red;
+    cursor: pointer;
+}
+
+.imageprofil {
+    text-align: center;
+    margin: 24px 0px 12px 0px;
+    position: relative;
+}
+img.imgauth {
+    width: 40%;
+    border-radius: 50%;
+}
+.contenu {
+    padding:16px;
+}
+
+.zonetext {
+    width: 100%;
+    padding:  12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid grey;
+    box-sizing: border-box;
+}
+button {
+    background-color: rgba(247, 174, 85, 0.844);
+    color: black;
+    font-weight: bold;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 8px;
+    font-family: 'Manrope', sans-serif;
+}
+button:hover {
+    opacity: 0.4;
+}
+.btannuler {
+    width: auto;
+    padding: 10px 20px;
+    background-color: brown;
+    color: white;
+    font-weight: bold;
+    border-radius: 8px;
+}
+@keyframes animationzoom {
+    form{transform: scale(0);}
+    to{transform: scale(1);}
+}
+.animation {
+    animation: animationzoom 0.7s
+}
+
+.contenu input {
+font-family: 'Manrope', sans-serif;
+}

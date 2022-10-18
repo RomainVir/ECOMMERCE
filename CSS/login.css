@@ -1,0 +1,111 @@
+body 
+    {
+        font-family: 'Manrope', sans-serif;
+        color: black;
+    background-color: #FEFBF4; 
+    }
+
+input 
+{
+    font-family: 'Manrope', sans-serif;
+}
+    .containerconnexion
+    {
+     
+        max-width: 100%;
+        margin: 0;
+    } 
+
+    .container2 
+    {
+        display: flex;
+        justify-content: space-evenly
+        
+    }
+  
+   .register h1, .login h1 {
+    color: rgb(13, 12, 12);
+    text-align: center;
+
+   }
+    .register
+    {
+        background-color: rgba(247, 174, 85, 0.844);
+        border-radius: 8px;
+        padding: 24px;
+        border: solid 4px brown;
+      
+    }
+
+    .login
+    {
+        background-color: rgb(218, 162, 49);
+        border-radius: 8px;
+        padding: 24px;
+    }
+
+.input-grp 
+    {
+
+   width: 100%;
+    margin: 0 auto;
+   
+    }
+
+    .login input, .register input 
+    {
+    width: 80%;
+    margin-bottom: 10px;
+    background-color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 16px;
+    
+   }
+
+.google 
+{
+    width: 95%;
+    margin-bottom: 24px;
+    background-color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 16px;
+    cursor: pointer;
+}
+
+   .enter button 
+   {
+    width: 100%;
+    margin-bottom: 10px;
+    background-color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 16px;
+    margin-top: 48px;
+    cursor: pointer;
+    font-family: 'Manrope', sans-serif;
+    font-size: larger;
+    transition: all 0.5s;
+   }
+   .enter button:hover {
+background-color: black;
+color: white;
+   }
+    .logotete {
+        padding-bottom: 20px;
+    }
+
+ 
+    .header-inner {
+        display: flex;
+        justify-content: space-between;
+
+    }
+    
+    
+    
+
+
+    
+

@@ -1,0 +1,307 @@
+/*HEADER*/
+
+header{
+    background-color: #FEFBF4;  
+}
+
+body {
+    font-family: 'Manrope', sans-serif;
+    color: black;
+    background-color: #FEFBF4; 
+    
+}
+
+.search {
+    font-family: 'Manrope', sans-serif;
+    width: 400px;
+    border-radius: 8px;
+    margin: 60px;
+    background-color: rgba(241, 196, 128, 0.834);
+    border: none;
+
+}
+.search:hover {
+    background-color: #d69b74 ;
+    color: white;
+}
+/* A PARTIR DU MENU */
+ul {
+    padding:0px;
+
+    }
+    h1 {
+        margin: 0px;
+    }
+.menu ul li  {
+    display:inline-block;  
+    justify-content: right;
+    cursor: pointer;
+    margin: 0px;
+
+    }
+
+    .logotete {
+        padding-bottom: 20px;
+    }
+    ul {
+        margin: 0px;
+    }
+ 
+    .container-menus {
+        background-color: rgba(242, 225, 199, 0.891);
+    }
+    .container-menus nav ul li a {
+        display: inline-block;
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+        font-family: 'Manrope', sans-serif;
+        padding: 16px;
+        transition: all 0.5s;
+        
+    }
+
+    .container.menus {
+        display: inline-block;
+        justify-content: space-between;
+    }
+    .menu ul li a:focus, .menu ul li a:hover {
+        
+        text-decoration : none;
+        padding: 2px;
+            border-bottom : 2px solid #FD6F13
+        
+        
+    }
+    .header-inner {
+        display: flex;
+        justify-content: space-between;
+
+    }
+    
+    
+    
+
+   /*BOUTONS*/
+
+   .botones {
+    background-color: rgba(247, 174, 85, 0.844);
+    font-family: 'Manrope', sans-serif;
+    border-radius: 10px;
+    border: 5px;
+    cursor: pointer;
+    margin: 2px;
+    transition: all 0.4s;
+   }
+   .botones:hover 
+   {
+    background-color: bisque;
+    color:salmon
+}
+
+    
+   /* CARDS VELOS */
+   
+    .container-velos
+    {
+        display: flex;
+        justify-content: space-between;
+        font-family: 'Manrope', sans-serif;
+        margin-left: 16px;
+    }
+.container-velos .cards 
+    {
+    
+    padding: 10px;
+    transition: all .3s ;
+    
+    }
+.container-velos .cards:hover {
+    border-width: 4px;
+    border-radius: 8px;
+    }
+    .clignote {
+        margin-left: 16px;
+    }
+
+
+    .container button 
+    {
+        font-family: 'Manrope', sans-serif;
+        cursor: pointer;
+        border-radius: 4px;
+        border: none;
+        transition: all 0.5;
+    }
+    .container button:hover 
+    {
+        background-color:rgba(255, 77, 0, 0.591);
+        color: wheat;
+        border: none;
+    }
+
+    .services 
+    {
+        display: flex;
+  
+        align-items: center;  
+    }
+
+    .payment, .delivery, .guarantee, .discount 
+    {
+            padding-top: 180px;
+            padding-right:224px;
+            padding-bottom: 80px;
+            margin-left: 16px;
+    }
+   /*FOOTER */
+
+   .foot .help div{
+    display: inline-block;
+    font-family: 'Manrope', sans-serif;
+    padding: 8px;
+   }
+ 
+   .follow {
+    display: flex;
+  
+    align-items: center;  
+}
+
+.container-footer{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 16px;
+
+}
+
+.foot {
+    background-color: rgba(242, 225, 199, 0.891);
+    color: rgb(0, 0, 0);
+ 
+}
+.help1 li, .help2 li{
+    
+    list-style: none;
+    padding: 8px;
+}
+
+ .follow, .insta, .facebook, .youtube {
+        padding: 16px;
+        display: flex;
+    }
+.footer-bottom {
+        padding-right: 15px;
+        padding-left: 15px;
+        background-color:#632A1F;
+        color: rgb(255, 255, 255);
+        text-align: center;
+        font-family: 'Manrope', sans-serif;
+    }
+    
+    .container-footer form {
+        background-color: #FEFBF4;
+        border: solid 2px black;
+        border-radius: 8px;
+        color: black;
+    margin-bottom: 16px;   
+    padding: 8px;
+ }
+
+.sub-bouton {
+    background-color: #632A1F;
+    font-family: 'Manrope', sans-serif;
+    border-radius: 10px;
+    color: white;
+    border: 5px;
+    cursor: pointer;
+    margin: 2px;
+    transition: all 0.4s;
+    font-size: 16px;
+    }
+
+    .sub-bouton:hover{
+        color: black;
+        background-color: rgba(242, 225, 199, 0.891);
+    } 
+  
+    
+    .accueil {
+        background-image: url(/HTML/Photos/fondovelo.jpg);
+        height: 900px;
+        max-width: 100%;
+        margin: 0;
+        
+    }
+    
+    .title {
+        text-align: left;
+        color: rgb(255, 255, 255);
+        font-family: 'Manrope', sans-serif;
+        font-size: 40px;
+        margin-left: 16px;
+        
+        
+    }
+
+    .read{
+  
+        padding: 16px 24px 16px;
+        border-radius: 25px;
+        border: none;
+        outline: 0;
+        margin-left: 24px;
+        text-align: center;
+        color: white;
+        font-weight: bold;
+        font-size: 20px;
+        font-family: 'Manrope', sans-serif;
+        align-items: center;
+        margin-left: 0px;
+        margin-top: 60px;
+        transition: all 0.5s;
+        cursor: pointer;
+        
+    }
+.read:hover 
+{
+    background-color: rgba(255, 77, 0, 0.591);
+    
+}
+
+.panier{
+   
+    margin-right: 24px;
+
+}
+.contador{
+    position: absolute;
+    top: 2px;
+    color:#632A1F;
+    font-weight: bold;
+    font-size: large;
+    
+}
+.discover{
+    background-color: #632A1F;
+    padding: 16px 24px 16px;
+    border-radius: 25px;
+    border: none;
+    outline: 0;
+    margin-left: 24px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Manrope', sans-serif;
+    align-items: center;
+    margin-left: 0px;
+    margin-top: 60px;
+    transition: all 0.5s;
+    cursor: pointer;
+    
+}
+.discover:hover 
+{
+background-color: rgba(255, 77, 0, 0.591);
+
+}
