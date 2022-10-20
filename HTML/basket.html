@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/CSS/style.css">
     <link rel="stylesheet" href="/CSS/basket.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Manrope" rel="stylesheet">
@@ -15,7 +16,7 @@
   <body>
     <header class="container header-inner">
       <a class="logotete" href="/HTML/Home.html">
-      <img src="/HTML/Logos/lastlogo.png" alt="Logo" width="180px"></a>
+      <img src="/HTML/Logos/logolast.png" alt="Logo" width="224px"></a>
       <label for="search" id="search"> </label>
       <input class="search"
         type="search"
@@ -45,6 +46,7 @@
               </ul>
       </div>
       <div class="pedido">
+        
    <div class="basket">
  <div class="product1">
     <div class="image"><img src="/HTML/Photos/cadenas.jpeg" width="240px" alt="light">
@@ -52,7 +54,7 @@
   <div class="price">
     <h4>Cadenas</h4>50,99 €</div>
     <div class="qty"> Quantity: 1</div>
-  <div class="borrar"><img src="/HTML/Logos/bin.jpg" width="30px" alt="bin"></div>
+  <div class="borrar"><img src="/HTML/Logos/bin.jpg" width="24px" alt="bin"></div>
        
   </div>
   <div class="product1">
@@ -61,7 +63,7 @@
   <div class="price">
     <h4>Light</h4>150,99 €</div>
   <div class="qty"> Quantity: 3</div>
-  <div class="borrar"><img src="/HTML/Logos/bin.jpg" width="30px" alt="bin"></div>
+  <div class="borrar"><img src="/HTML/Logos/bin.jpg" width="24px" alt="bin"></div>
        
   </div>
   <div class="product1">
@@ -70,18 +72,18 @@
   <div class="price">
     <h4>Bike beach</h4>2200 €</div>
     <div class="qty"> Quantity: 1</div>
-  <div class="borrar"><img src="/HTML/Logos/bin.jpg" width="30px" alt="bin"></div>
+  <div class="borrar"><img src="/HTML/Logos/bin.jpg" width="24px" alt="bin"></div>
        
 </div>
 </div>
 <div class="tarjeta">
   <div class="pagar">
     <h1>Add a new payment method</h1>
-        <button class="mastercard "type="button"><img src="/HTML/Logos/mastercard.png" 
+        <button class="paymenttype"type="button"><img src="/HTML/Logos/mastercard.png" 
             width="40px" alt="ggle"></button>
-            <button class="visa "type="button"><img src="/HTML/Logos/visa.png" 
+            <button class="paymenttype "type="button"><img src="/HTML/Logos/visa.png" 
               width="40px" alt="ggle"></button>
-              <button class="paypal "type="button"><img src="/HTML/Logos/paypal.png" 
+              <button class="paymenttype "type="button"><img src="/HTML/Logos/paypal.png" 
                 width="50px" alt="ggle"></button>
        
                 <div class="datas">
@@ -89,6 +91,7 @@
                <div class="cardnumber">
                 <input type="number" placeholder="Card number"></div>
                 <div class="cvc"><input type="date"></div>
+                <button class="add"> Add this new payment card</button>
               </div>
         </div>
       </div>

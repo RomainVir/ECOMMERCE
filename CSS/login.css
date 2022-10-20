@@ -2,7 +2,7 @@ body
     {
         font-family: 'Manrope', sans-serif;
         color: black;
-    background-color: #FEFBF4; 
+    background-color: white; 
     }
 
 input 
@@ -30,17 +30,20 @@ input
    }
     .register
     {
-        background-color: rgba(247, 174, 85, 0.844);
+        margin-top: 32px;
         border-radius: 8px;
+        box-shadow: 0 8px 16px -12px;
+        background-color: #F3E4CD;
         padding: 24px;
-        border: solid 4px brown;
       
     }
 
     .login
     {
-        background-color: rgb(218, 162, 49);
+        margin-top: 32px;
         border-radius: 8px;
+        box-shadow: 0 8px 16px -12px;
+        background-color: #F3E4CD;
         padding: 24px;
     }
 
@@ -89,7 +92,7 @@ input
     transition: all 0.5s;
    }
    .enter button:hover {
-background-color: black;
+    background-color: rgba(255, 77, 0, 0.591);
 color: white;
    }
     .logotete {
