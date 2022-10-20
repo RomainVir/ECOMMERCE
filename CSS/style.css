@@ -111,10 +111,15 @@ ul {
     margin-left: 0px;
     transition: all 0.5s;
     cursor: pointer;
-    padding: 2px 8px 2px 8px;
+  
 }
 .cards button:hover {
 background-color: rgba(255, 77, 0, 0.591);
+}
+
+.boutons {
+    display: flex;
+    justify-content: right;
 }
    /* CARDS VELOS */
    
