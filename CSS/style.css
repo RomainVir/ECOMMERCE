@@ -2,6 +2,7 @@
 
 header{
     background-color: white;  
+    height: 160px;
 }
 
 body {
@@ -14,14 +15,13 @@ body {
 .search {
     font-family: 'Manrope', sans-serif;
     width: 400px;
-    border-radius: 8px;
     margin: 80px;
-    background-color: rgba(242, 225, 199, 0.891);
-    border: none;
+    background-color: rgba(255, 255, 255, 0.891);
+    border: solid 1px black;
 
 }
 .search:hover {
-    background-color: rgba(255, 77, 0, 0.591);
+    background-color: rgb(0, 0, 0);
     color: white;
 }
 /* A PARTIR DU MENU */
@@ -49,8 +49,8 @@ ul {
     }
  
     .container-menus {
-        background-color: rgba(242, 225, 199, 0.891);
-        background: linear-gradient(90deg, #ddb986, #db99502e);
+        background-color: white;
+        border-top: solid 1px black;
     }
     .container-menus nav ul li a {
         display: block;
@@ -87,7 +87,7 @@ ul {
    /*BOUTONS*/
 
    .botones {
-    background-color: rgba(247, 174, 85, 0.844);
+    background-color: #c08a38ab;
     font-family: 'Manrope', sans-serif;
     border-radius: 10px;
     border: 5px;
@@ -98,10 +98,10 @@ ul {
    .botones:hover 
    {
     background-color: bisque;
-    color:salmon
+    color:rgb(151, 73, 0)
 }
 .cards button {
-    background-color: #632A1F;
+    background-color: #c08a38ab;
     border-radius: 25px;
     border: none;
     margin-left: 24px;
@@ -204,7 +204,8 @@ background-color: rgba(255, 77, 0, 0.591);
 }
 
 .foot {
-    background-color: rgba(242, 225, 199, 0.891);
+        background-color: #c08a38ab;
+  
     color: rgb(0, 0, 0);
  
 }
@@ -221,7 +222,7 @@ background-color: rgba(255, 77, 0, 0.591);
 .footer-bottom {
         padding-right: 15px;
         padding-left: 15px;
-        background-color:#632A1F;
+        background-color:#000000;
         color: rgb(255, 255, 255);
         text-align: center;
         font-family: 'Manrope', sans-serif;
@@ -229,7 +230,7 @@ background-color: rgba(255, 77, 0, 0.591);
     
     .container-footer form {
         background-color: #FEFBF4;
-        border: solid 2px black;
+        border: none;
         border-radius: 8px;
         color: black;
     margin-bottom: 16px;   
@@ -237,7 +238,7 @@ background-color: rgba(255, 77, 0, 0.591);
  }
 
 .sub-bouton {
-    background-color: #632A1F;
+        background-color: #c08a38ab;
     font-family: 'Manrope', sans-serif;
     border-radius: 10px;
     color: white;
@@ -255,16 +256,17 @@ background-color: rgba(255, 77, 0, 0.591);
   
     
     .accueil {
-        background-image: url(/HTML/Photos/fondovelo.jpeg);
+        background-image: url(/HTML/Photos/canyontop.jpeg);
         height: 540px;
-        max-width: 100%;
+        background-size: cover;
+        background-position: center center;
         margin: 0;
         
     }
     
     .title {
         text-align: left;
-        color: rgb(1, 1, 1);
+        color: white;
         font-family: 'Manrope', sans-serif;
         font-size: 40px;
         margin-left: 24px;
@@ -273,7 +275,7 @@ background-color: rgba(255, 77, 0, 0.591);
     }
 
     .discover{
-        background-color: #632A1F;
+        background-color: #c08a38ab;
         padding: 16px 24px 16px;
         border-radius: 25px;
         border: none;
