@@ -251,8 +251,8 @@ background-color: rgba(255, 77, 0, 0.591);
     }
 
     .sub-bouton:hover{
-        color: black;
-        background-color: rgba(242, 225, 199, 0.891);
+        background-color:rgba(255, 77, 0, 0.591);
+        color: rgb(255, 255, 255);
     } 
   
     
