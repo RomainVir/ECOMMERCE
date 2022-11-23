@@ -30,15 +30,13 @@ function BestProducts() {
           <span>★</span>
         </div>
       
-        <button>Add to basket</button>
-       <button>Details</button>
+      <button>Add to basket</button>
+       <a href="/HTML/Detalleproducto.html?id=${destacados[i].id}">Details</a> 
      
       </div>`
-      //CHANGER LE LIEN POUR VOIR LES VELOS
-      //<button onclick="Ofertas() id="ofertas" "href="detalleproducto.html?id=${response[i].nombre}">Details</button>
-  // htmlContent += "</ul>"
-  
+       
       
+     
       }
       usersDiv.innerHTML = htmlContent;
     }
