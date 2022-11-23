@@ -1,6 +1,6 @@
 // fonction pour voir le detail du produit en ofertas
 function Detalleproducto(){
-    let userId = new URLSearchParams(window.location.search).get("id");
+    let id = new URLSearchParams(window.location.search).get("id");
     const request = new XMLHttpRequest();
     request.onreadystatechange = function () {
       console.log(`estado actual ${this.readyState}`);
@@ -10,8 +10,8 @@ function Detalleproducto(){
         let usersDiv = document.getElementById("detalles");
         let htmlContent ="";
             htmlContent+=`<div class="cards"><img src="${response.picture}" width="400px">
-            <h3>$${response.nombre}</h3>
-            <h4>${response.detalle}</h4>
+            <h3>${response.nombre}</h3>
+            <h4>${response.precio}</h4>
            
             <button>Add to basket</button>
           </div>`
@@ -20,7 +20,7 @@ function Detalleproducto(){
         }
       }
       
-      request.open("GET", `http://localhost:8000/producto/${userId}`, true)
+      request.open("GET", `http://localhost:8000/producto/${id}`, true)
       
       request.send();
 
