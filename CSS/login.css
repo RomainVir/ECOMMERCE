@@ -34,7 +34,7 @@ input
         margin-top: 32px;
         border-radius: 8px;
         box-shadow: 0 8px 20px 0px;
-        background-color: #F3E4CD;
+        background-color: #468b71e2;
         padding: 24px;
       
     }
@@ -44,7 +44,7 @@ input
         margin-top: 32px;
         border-radius: 8px;
         box-shadow: 0 8px 16px -12px;
-        background-color: #F3E4CD;
+        background-color: #468b71e2;
         padding: 24px;
     }
 .login h1 {
@@ -118,7 +118,14 @@ color: white;
     }
     
     
-    
+    .error {
+        background-color: red;
+        color: black;
+        display: none;
+        border-radius: 8px;
+        padding: 2px;
+    }
+   
 
 
     

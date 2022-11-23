@@ -17,13 +17,7 @@
     <header class="container header-inner">
       <a class="logotete" href="/HTML/Home.html">
       <img src="/HTML/Logos/logolast.png" alt="Logo" width="180px"></a>
-      <div class="barre">
-    
-      <input class="search"
-        type="search"
-        id="search"
-        placeholder="Find your next bike here..."></input>
-      </div>
+      
         
       <div class="panier">
         <a href="/HTML/basket.html">
@@ -35,18 +29,7 @@
   
     </header>
   
-       <div class="container-menus">
-            <nav class="menu">
-               <ul>
-                  <li><a href="/HTML/Home.html">Home</a></li>
-                  <li><a href="/HTML/Allproducts.html">All products</a></li>
-                  <li><a href="/HTML/About us.html">About us</a></li>
-                  <li><a href="/HTML/Discounts.html">Discounts</a></li>
-                  <li><a href="/HTML/Accessories.html">Accessories</a></li>
-                <li><a href="/HTML/Contact.html">Contact</a></li>
-               <li><a href="/HTML/login.html">My account</a></li>
-              </ul>
-      </div>
+    
 
   <div class="containerconnexion">
     <div class="container2">
@@ -69,7 +52,7 @@
        </div>
           
            <div class="enter">
-            <a href="/HTML/Home.html">
+      
             <button>Create your account</button></a>
            </div>
             
@@ -83,19 +66,23 @@
                     width="40px" alt="ggle"></button></a>
                 <div class="input-grp">
                     <label for="Email"></label>
-                    <input type="email" placeholder="Email">
+                    <input type="email" placeholder="Email" id="user">
     
                     <div class="input-grp">
                     <label for="Password"></label>
                     <div class="input-grp">
-                    <input type="password" placeholder="Password"></div>
+                    <input type="password" id="password" placeholder="Password"></div>
                 
                 </div>
-               </div>
+                </div> 
                   
                    <div class="enter">
-                    <a href="/HTML/Home.html">
-                    <button>Enter</button></a>
+                  <a href="#"></a>
+                    <button onclick="openAccount()">Enter</button></a> <!-- pour ouvrir le compte si les logins sont bons-->
+                   </div>
+
+                   <div class="error" id="error">
+                    <h3>Not a correct user or password</h3><!--error message caché-->
                    </div>
                    
                
@@ -103,7 +90,7 @@
             </div>
         </div>
 
-        
+        <script src="/JS/login.js"></script>
 
             </body>
         

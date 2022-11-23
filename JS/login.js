@@ -1,11 +1,18 @@
 function openAccount() {
-  const user = document.getElementById("user").value;
-  const password = document.getElementById("password").value;
-  const error = document.getElementById("error").value;
+  const user = "romain@gmail.com";
+  const password = "Romano";
 
-  if (user === "romain@gmail.com" && password === "Romano") {
+  let usuario = document.getElementById("user").value;
+  let pass = document.getElementById("password").value;
+
+  if (user === usuario && password === pass) {
     window.alert("Bienvenido a tu cuenta Romain");
   } else {
-    window.alert(get("error"));
+    const elementos = document.getElementsByClassName("error");
+    for (let i = 0; i < elementos.length; i++) {
+      if (elementos[i].id == "error") {
+        elementos[i].style.display = "flex";
+      }
+    }
   }
 }
