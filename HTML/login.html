@@ -38,26 +38,35 @@
     <a href="https://www.google.com/">
         <button class="google "type="button"><img src="/HTML/Logos/google.png" 
             width="40px" alt="ggle"></button></a>
+
+          <div class="input-grp">
+              <label for="Email"></label>
+              <input type="text" placeholder="Name" id="Name">
+           <div class="input-grp">
+              <label for="Email"></label>
+               <input type="text" placeholder="Surname" id="Surname">
+
         <div class="input-grp">
             <label for="Email"></label>
-            <input type="email" placeholder="Email">
+            <input type="email" placeholder="Email" id="Email">
 
             <div class="input-grp">
             <label for="Password"></label>
             
             <div class="input-grp">
-            <input type="password" placeholder="Password"></div>
+            <input type="password" placeholder="Password" id="Password"></div>
         
         </div>
        </div>
           
-           <div class="enter">
-      
-            <button>Create your account</button></a>
+           <div class="enter" >
+            <a href="#"></a>
+            <button id="login" type="button" onclick="register()">Register</button> <!-- pour ouvrir un nouveau compte-->
            </div>
             
         </div>
-    
+    </div>
+    </div>
          
         <div class="login">
             <h1>Log in</h1>
@@ -66,7 +75,7 @@
                     width="40px" alt="ggle"></button></a>
                 <div class="input-grp">
                     <label for="Email"></label>
-                    <input type="email" placeholder="Email" id="user">
+                    <input type="email" placeholder="Email" id="email">
     
                     <div class="input-grp">
                     <label for="Password"></label>
@@ -78,7 +87,7 @@
                   
                    <div class="enter">
                   <a href="#"></a>
-                    <button onclick="openAccount()">Enter</button></a> <!-- pour ouvrir le compte si les logins sont bons-->
+                    <button id="login" onclick="openAccount()">Enter</button> <!-- pour ouvrir le compte si les logins sont bons-->
                    </div>
 
                    <div class="error" id="error">

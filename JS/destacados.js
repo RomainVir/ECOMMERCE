@@ -19,7 +19,7 @@ function BestProducts() {
           htmlContent += `
       <div class="container-velos">
         <div class="cards">
-        <img src=${destacados[i].picture} alt="velo1" width="400px">
+        <img src=${destacados[i].imagen} alt="velo1" width="400px">
         <h3>${destacados[i].nombre}</h3>
         <h4>${destacados[i].precio}</h4>
         <div class="rating">
