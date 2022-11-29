@@ -35,8 +35,6 @@ function BestProducts() {
      
       </div>`
        
-      
-     
       }
       usersDiv.innerHTML = htmlContent;
     }

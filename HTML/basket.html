@@ -47,7 +47,7 @@
                <li><a href="/HTML/login.html">My account</a></li>
               </ul>
       </div>
-      <div class="pedido">
+      <div class="pedido" id="pedido">
         
    <div class="basket">
  <div class="product1">
@@ -94,8 +94,10 @@
                 <input type="number" placeholder="Card number"></div>
                 <div class="cvc"><input type="date"></div>
                 <button class="add"> Add this new payment card</button>
-                <button class="add"> Pay</button>
+                <button class="add" onclick="enviarPedido()">Pay</button>     
               </div>
            
+
+              <script src="/JS/pedido.js"></script>
         </div>
       </div>

@@ -23,6 +23,5 @@ function Detalleproducto(){
       request.open("GET", `http://localhost:8000/producto/${id}`, true)
       
       request.send();
-
         
       }
